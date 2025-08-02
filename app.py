@@ -1,11 +1,10 @@
 import streamlit as st
-from PIL import Image
-import io
 
 st.set_page_config(
     page_title="자기소개",
     page_icon="👋",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="collapsed"
 )
 
 st.title("👋 안녕하세요!")
